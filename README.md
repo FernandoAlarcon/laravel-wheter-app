@@ -31,13 +31,17 @@ Laravel HTTP Client (Http::get())
 ## How to Run
 Clone the repository:
 
---- git clone https://github.com/yourusername/weather-dashboard.git ---
-### cd weather-dashboard
+<pre> ```bash git clone https://github.com/yourusername/weather-dashboard.git ---
+ cd weather-dashboard
+    `` </pre>
 
 ## Install dependencies:
-
+<pre> ```bash
+    
 composer install
 npm install && npm run dev
+    
+     `` </pre>
 
 ## Copy .env and add your OpenWeatherMap API key:
 cp .env.example .env
@@ -45,7 +49,9 @@ OPENWEATHER_API_KEY=your_api_key_here
 
 ## Run the app:
 
+<pre> ```bash
 php artisan serve
+    `` </pre>
 
 Visit: http://localhost:8000/dashboard
 
